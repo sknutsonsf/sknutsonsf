@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "First to Jekyll!"
-date:   2023-01-07 21:03:16 -0800
+title:  "First to Jekyll updated"
+date:   2023-01-08
 categories: jekyll update
 ---
 
-Initial post 
+Initial post  to try GH pages
 Jekyll also offers powerful support for code snippets:
 
 {% highlight ruby %}
