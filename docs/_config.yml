@@ -26,7 +26,8 @@ baseurl: "/sknutsonsf" # the subpath of your site, e.g. /blog
 url: "https://sknutsonsf.github.io/sknutsonsf/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 
-remote_theme: pages-themes/time-machine@v0.2.0
+# remote_theme: pages-themes/time-machine@v0.2.0
+remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
