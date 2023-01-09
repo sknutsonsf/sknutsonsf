@@ -4,7 +4,3 @@
 
 layout: home
 ---
-
-Top level page
-
-<a href="about.html">About</html>

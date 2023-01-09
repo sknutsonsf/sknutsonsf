@@ -1,23 +1,26 @@
 ---
 layout: post
-title:  "First to Jekyll updated"
+title:  "First test"
 date:   2023-01-08
 categories: jekyll update
 ---
 
-Initial post  to try GH pages
-Jekyll also offers powerful support for code snippets:
+Initial post to try GH pages
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+{% highlight javascript %}
+import React, {createContext, useContext} from "react";
+
+// documentation
+const initialContext = {
+   isUpdating: true,
+   startCheckingStatus: null
+}
+
+export const JobStatus = createContext(initialContext)
+function OuterHolder() {
+
+}
+
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+The full example is coming
